@@ -1,1 +1,8 @@
 @charset "UTF-8";
+
+body, html{
+
+}
+h1 {
+    color: #555;
+}
