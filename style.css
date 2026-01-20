@@ -6,6 +6,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 
+
 }
 
 h1 {
@@ -13,20 +14,25 @@ h1 {
 }
 
 img {
-    max-width: 700px;
+    max-width: 350px;
     border: 6px solid;
     border-style: solid;
+
+
 
 }
 
 figure {
-    text-align: center;
+    height: auto;
     margin: 2.5em;
+    float: right;
+
 
 }
 
 article {
     max-width: 800px;
+    padding: 100px;
 }
 
 .ingress {
@@ -48,6 +54,9 @@ article {
 
 }
 
+main {
+    background-color: #e8f1f8;
+}
 
 
 .faktaruta {
@@ -56,11 +65,14 @@ article {
     margin: 2em;
     background-color: chocolate;
 
+
 }
 
 footer {
     text-align: center;
-    background-color: moccasin;
+    background-color: #2f5d8a;
+    color: whitesmoke;
     padding: 1em;
+    font-size: 0.8em;
 
 }
