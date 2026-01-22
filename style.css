@@ -5,11 +5,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     max-width: 1200px;
     margin: 0 auto;
-
-
 }
 
 h1 {
+    font-weight: bold; 
+}
+
+h2 {
     color: #555;
 }
 
@@ -17,17 +19,12 @@ img {
     max-width: 350px;
     border: 6px solid;
     border-style: solid;
-
-
-
 }
 
 figure {
-    height: auto;
     margin: 2.5em;
     float: right;
-
-
+    font-style: italic;
 }
 
 article {
@@ -41,31 +38,24 @@ article {
 }
 
 .sidohuvud {
-    color: chocolate;
-    text-align: center;
-}
-
-#sidohuvudbild {
-    background-image: url(/img/sidohuvud.jpg);
+    background-image: url(img/sidohuvudbild.jpg);
     width: 1200px;
     height: 250px;
     background-size: cover;
     background-position: center;
-
 }
 
 main {
     background-color: #e8f1f8;
 }
 
-
 .faktaruta {
     border: 4px solid;
-    padding: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 450px;
     margin: 2em;
     background-color: chocolate;
-
-
 }
 
 footer {
@@ -74,5 +64,4 @@ footer {
     color: whitesmoke;
     padding: 1em;
     font-size: 0.8em;
-
 }
